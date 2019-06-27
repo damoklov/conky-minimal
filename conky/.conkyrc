@@ -105,7 +105,7 @@ ${color A6A6A6}Essid: ${wireless_essid wlp3s0} ${alignr}Rate: ${wireless_bitrate
 ${color A6A6A6}Down: ${downspeed wlp3s0} kB/s ${alignr}Up: ${upspeed wlp3s0} kB/s$color
 ${color A6A6A6}${downspeedgraph wlp3s0 25,140 000000 970300} ${alignr}${upspeedgraph wlp3s0 25,140 000000 297F00}$color
 ${color A6A6A6}Total: ${totaldown wlp3s0} ${alignr}Total: ${totalup wlp3s0}$color$endif
-${font sans-serif:bold:size=10}${color eee}DISK ${hr 2}
+${font sans-serif:bold:size=10}${color eee}Disk usage
 ${font sans-serif:normal:size=10}Root $alignc ${fs_used /} / ${fs_size /} $alignr${fs_used_perc /}%
 ${fs_bar /}
 ]]
