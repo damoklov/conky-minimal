@@ -18,6 +18,6 @@ jsonObject = json.loads(text)
  # Find all words in capital letters
 
 regex = r"\b[A-Z][A-Z]+\b"
-matches = re.finditer(regex, j['description'])
+matches = re.finditer(regex, jsonObject['description'])
 
 print(' '.join([match[0] for match in matches]))
